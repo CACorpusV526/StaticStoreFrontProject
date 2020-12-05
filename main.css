@@ -1,0 +1,36 @@
+body
+{
+    background-color: #e5e4e2;
+}
+header
+{
+    text-align: center;
+}
+img
+{
+    display: block;
+    margin: auto;
+}
+li
+{
+    display: inline;
+    color: white;
+    padding: 25px 75px;
+    font-size: large;
+    font-style: italic;
+    font-weight: bold;
+    border-right: 1px solid #e5e4e2;
+}
+li:last-child
+{
+    border-right: none;
+}
+ul
+{
+    background-color: red;
+    text-align: center;
+    padding: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1000px;
+}
