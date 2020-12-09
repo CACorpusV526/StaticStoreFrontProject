@@ -34,3 +34,20 @@ ul
     margin-right: auto;
     max-width: 1000px;
 }
+#cards-section div
+{
+    display: inline-block;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    margin-left: 21%;
+}
+.card
+{
+    width: 75px;
+    height: 75px;
+    background-color: blue;
+}
+#cards-section .card:nth-child(4)
+{
+    margin-left: 34%;
+}
